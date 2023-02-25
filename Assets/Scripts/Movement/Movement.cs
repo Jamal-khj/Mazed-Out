@@ -15,6 +15,7 @@ public class Movement: MonoBehaviour
     [SerializeField] float gravity = -30f;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
+    [SerializeField] AudioSource jumpsfx;
 
     public float jumpHeight = 6f;
     float velocityY;
@@ -78,12 +79,22 @@ public class Movement: MonoBehaviour
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
+            jumpsfx.Play();
             velocityY = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
         if (isGrounded! && controller.velocity.y < -1f)
         {
             velocityY = -8f;
+        }
+
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            Speed = 10;
+        }
+        else
+        {
+            Speed = 6;
         }
     }
 }
