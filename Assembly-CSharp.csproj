@@ -58,8 +58,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\UIs\MainMenu.cs" />
     <Compile Include="Assets\Scripts\UIs\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Movement\Player.cs" />
     <Compile Include="Assets\Scripts\UIs\StartGame.cs" />
+    <Compile Include="Assets\Scripts\Movement\Movement1.cs" />
     <Compile Include="Assets\Scripts\UIs\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Movement\Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
