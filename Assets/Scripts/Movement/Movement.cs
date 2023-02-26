@@ -4,7 +4,7 @@ using UnityEngine;
 
 // These videos take long to make so I hope this helps you out and if you want to help me out you can by leaving a like and subscribe, thanks!
 
-public class Movement: MonoBehaviour
+public class Movement : MonoBehaviour
 {
     [SerializeField] Transform playerCamera;
     [SerializeField][Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
@@ -88,7 +88,7 @@ public class Movement: MonoBehaviour
             velocityY = -8f;
         }
 
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             Speed = 10;
         }
