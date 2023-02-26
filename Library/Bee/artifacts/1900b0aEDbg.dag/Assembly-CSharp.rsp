@@ -345,9 +345,11 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Movement/Movement.cs"
 "Assets/Scripts/Movement/Movement1.cs"
 "Assets/Scripts/Movement/Player.cs"
 "Assets/Scripts/UIs/MainMenu.cs"
+"Assets/Scripts/UIs/PauseMenu.cs"
 "Assets/Scripts/UIs/SceneLoader.cs"
 "Assets/Scripts/UIs/StartGame.cs"
 -langversion:9.0
