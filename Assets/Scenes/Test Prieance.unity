@@ -1415,9 +1415,9 @@ Transform:
   - {fileID: 1081916910}
   - {fileID: 1122719432}
   - {fileID: 1865970734}
-  - {fileID: 805497561}
   - {fileID: 425770220}
   - {fileID: 1123631239}
+  - {fileID: 805497561}
   - {fileID: 747851663}
   - {fileID: 232154413}
   - {fileID: 1265767941}
@@ -9742,6 +9742,10 @@ PrefabInstance:
     - target: {fileID: 3304867596454058142, guid: 7cf1c8fd1d27efa4ca06e1feae4a5796, type: 3}
       propertyPath: m_Name
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304867596454058142, guid: 7cf1c8fd1d27efa4ca06e1feae4a5796, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6470251350181453025, guid: 7cf1c8fd1d27efa4ca06e1feae4a5796, type: 3}
       propertyPath: m_Materials.Array.data[0]
