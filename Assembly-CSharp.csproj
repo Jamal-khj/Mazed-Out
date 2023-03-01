@@ -56,11 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Timer\Timer.cs" />
     <Compile Include="Assets\Scripts\UIs\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Movement\Movement.cs" />
+    <Compile Include="Assets\Scripts\UIs\ScoreScreen.cs" />
     <Compile Include="Assets\Scripts\UIs\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\UIs\StartGame.cs" />
-    <Compile Include="Assets\Scripts\UIs\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\pointer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
